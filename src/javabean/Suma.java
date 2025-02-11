@@ -1,5 +1,7 @@
 package javabean;
 
+import java.util.Scanner;
+
 /**
  * 
  * Esta clase permite sumar números enteros y decimales. También, guarda un
@@ -45,6 +47,7 @@ public class Suma {
 	public Suma() {
 		cantidadAcumulada = 0;
 	}
+	
 
 	/**
 	 * 
@@ -124,7 +127,8 @@ public class Suma {
 	/**
 	 * 
 	 * Devuelve el total acumulado hasta el momento
-	 * @return La cantidad acumulada 
+	 * 
+	 * @return La cantidad acumulada
 	 * 
 	 */
 
@@ -142,4 +146,97 @@ public class Suma {
 	public void reiniciarAcumulado() {
 		cantidadAcumulada = 0;
 	}
+
+	// Menú
+
+	public void mostrarMenuSuma(Scanner leer) {
+		int opcion;
+		do {
+			System.out.println("******Menú suma******");
+			System.out.println("1. Suma dos números enteros");
+			System.out.println("2. Suma dos números decimales");
+			System.out.println("3. Suma tres números decimales");
+			System.out.println("4. Menú principal");
+			System.out.print("Seleccione una opción (1-4): ");
+
+			opcion = leer.nextInt();
+
+			switch (opcion) {
+			case 1:
+				sumarDosEnteros(leer);
+				break;
+			case 2:
+				sumarDosDecimales(leer);
+				break;
+			case 3:
+				sumarTresDecimales(leer);
+				break;
+			case 4:
+				System.out.println("Menú principal");
+				break;
+			default:
+				System.out.println("Opción incorrecta. Introduce un número entre 1 y 4");
+			}
+		} while (opcion != 4);
+
+	}
+	
+	private void sumarDosEnteros(Scanner leer) {
+		System.out.print("Escribe un número entero: ");
+
+	    while (!leer.hasNextInt()) {
+	        System.out.println("No es un número entero");
+	        leer.next();
+	    }
+		int numero1 = leer.nextInt();
+		System.out.print("Escribe otro número entero: ");
+		int numero2 = leer.nextInt();
+		System.out.println("El resultado es: " + sumar(numero1, numero2));
+	}
+     
+	private void sumarDosDecimales(Scanner leer) {
+		System.out.print("Escribe un número decimal usando una coma (por ejemplo 1,6): ");
+		while (!leer.hasNextDouble()) {
+			System.out.println("No es un número décimal");
+			leer.next();
+		}
+		double numero1 = leer.nextDouble();
+
+		System.out.print("Escribe un número decimal usando una coma (por ejemplo 1,6): ");
+		while (!leer.hasNextDouble()) {
+			System.out.println("No es un número décimal (1,6)");
+			leer.next();
+		}
+		double numero2 = leer.nextDouble();
+
+		System.out.println("El resultado es: " + (numero1 + numero2));
+
+	}
+
+	private void sumarTresDecimales(Scanner leer) {
+		System.out.print("Escribe un número decimal usando una coma (por ejemplo 1,6): ");
+		while (!leer.hasNextDouble()) {
+			System.out.println("No es un número décimal");
+			leer.next();
+		}
+		double numero1 = leer.nextDouble();
+
+		System.out.print("Escribe un número decimal usando una coma (por ejemplo 1,6): ");
+		while (!leer.hasNextDouble()) {
+			System.out.println("No es un número décimal");
+			leer.next();
+		}
+		double numero2 = leer.nextDouble();
+
+		System.out.print("Escribe un número decimal usando una coma (por ejemplo 1,6): ");
+		while (!leer.hasNextDouble()) {
+			System.out.println("No es un número décimal");
+			leer.next();
+		}
+		double numero3 = leer.nextDouble();
+
+		System.out.println("El resultado es: " + (numero1 + numero2 + numero3));
+
+	}
+
 }
