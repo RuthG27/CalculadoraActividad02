@@ -25,7 +25,7 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                	// TODO: Pendiente sub
+                	// TODO: Pendiente de rellenar por RUTH
                 	System.out.println("Opcion pendiente de implementar");
                     break;
 
@@ -34,7 +34,7 @@ public class Main {
                     break;
 
                 case 3:
-                	// TODO: Pendiente
+                	// TODO: Pendiente de rellenar por ADEXE
                 	System.out.println("Opcion pendiente de implementar");
                     break;
 
