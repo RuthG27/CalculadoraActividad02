@@ -25,8 +25,7 @@ public class Main {
 
             switch (opcion) {
                 case 1:
-                	// TODO: Pendiente de rellenar por RUTH
-                	System.out.println("Opcion pendiente de implementar");
+                	suma.mostrarMenuSuma(scanner);
                     break;
 
                 case 2:
