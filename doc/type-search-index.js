@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"javabean","l":"main"},{"p":"javabean","l":"Multiplicacion"},{"p":"javabean","l":"Resta"},{"p":"javabean","l":"Suma"}];updateSearchResults();

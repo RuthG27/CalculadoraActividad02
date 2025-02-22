@@ -1,1 +1,0 @@
-tagSearchIndex = [{"l":"Casos especiales:","h":"class javabean.Multiplicacion","d":"Section","u":"javabean/Multiplicacion.html#casos-especiales--heading"}];updateSearchResults();
