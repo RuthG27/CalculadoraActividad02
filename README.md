@@ -29,4 +29,4 @@ También he incluido pruebas unitarias para todos los métodos, cubriendo casos 
 ## 🚀 Cómo ejecutar el proyecto  
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/tu_usuario/CalculadoraActividad02.git
+   git clone https://github.com/RuthG27/CalculadoraActividad02.git
