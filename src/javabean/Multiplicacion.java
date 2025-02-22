@@ -100,7 +100,7 @@ public class Multiplicacion {
             System.out.println("2. Multiplicar dos números enteros");
             System.out.println("3. Multiplicar tres números reales");
             System.out.println("4. Calcular una potencia");
-            System.out.println("5. Salir");
+            System.out.println("5. Volver al menú principal");
             System.out.print("Seleccione una opción (1-5): ");
 
             while (!scanner.hasNextInt()) {

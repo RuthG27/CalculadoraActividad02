@@ -1,11 +1,5 @@
 package javabean;
 
-<<<<<<< HEAD:src/javabean/main.java
-public class main {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-=======
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +7,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int opcion;
->>>>>>> main:src/javabean/Main.java
 
         // Instancias de las clases
         Suma suma = new Suma();
@@ -40,8 +33,7 @@ public class Main {
                     break;
 
                 case 3:
-                	// TODO: Pendiente de rellenar por ADEXE
-                	System.out.println("Opcion pendiente de implementar");
+                    multiplicacion.mostrarMenuMultiplicacion(scanner);
                     break;
 
                 case 4:
