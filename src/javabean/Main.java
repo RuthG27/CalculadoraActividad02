@@ -33,8 +33,7 @@ public class Main {
                     break;
 
                 case 3:
-                	// TODO: Pendiente de rellenar por ADEXE
-                	System.out.println("Opcion pendiente de implementar");
+                    multiplicacion.mostrarMenuMultiplicacion(scanner);
                     break;
 
                 case 4:
