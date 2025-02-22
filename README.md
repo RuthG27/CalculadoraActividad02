@@ -9,7 +9,6 @@ Cada integrante del equipo ha desarrollado una clase que implementa las operacio
   - `Suma` ➕  
   - `Resta` ➖  
   - `Multiplicacion` ✖️  
-  - `Cociente` ➗  
 
 - **`testing`**: Pruebas unitarias usando **JUnit 5** para validar el comportamiento de cada clase.
 
