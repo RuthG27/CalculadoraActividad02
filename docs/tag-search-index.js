@@ -1,1 +1,1 @@
-tagSearchIndex = [{"l":"Casos especiales:","h":"class javabean.Multiplicacion","d":"Section","u":"javabean/Multiplicacion.html#casos-especiales--heading"}];updateSearchResults();
+tagSearchIndex = [{"l":"Casos especiales:","h":"class javabean.Multiplicacion","d":"Section","u":"javabean/Multiplicacion.html#casos-especiales--heading"},{"l":"Casos especiales:","h":"class javabean.Suma","d":"Section","u":"javabean/Suma.html#casos-especiales--heading"}];updateSearchResults();
